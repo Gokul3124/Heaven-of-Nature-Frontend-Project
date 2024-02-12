@@ -1,0 +1,293 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.homebar{
+    background-image: url(Datas/navbar\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    top: 80px;
+  }
+  
+  .homebar ul li a{
+    text-decoration: none;
+    color: #eeeeee50;
+    
+  }
+  
+  .homebar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 400;
+    font-weight: 500;
+    list-style-type: none;
+  }
+  
+  .homebar ul li a:hover{
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+  }
+
+.potter {
+    position: absolute;
+}
+
+
+.lin {
+    position: absolute;
+    background: linear-gradient(to left,rgb(136, 255, 0),rgb(255, 255, 255),yellow);
+    background-clip: text;
+    color: transparent;
+    left: 60px;
+    top: 30px;
+    font-weight: bolder;
+    font-size: 150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.lio {
+    position: absolute;
+    left: 15px;
+    width: 550px;
+    word-spacing: 1px;
+    top: 230px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.Apex {
+    position: relative;
+    display: flex;
+}
+
+.tail{
+    position: absolute;
+    text-transform: uppercase;
+    background: linear-gradient(to top, rgb(1, 102, 255), rgb(156, 156, 156), rgb(251, 255, 0));
+    background-clip: text;
+    color: transparent;
+    left: 10px;
+    top: 150px;
+    font-weight: bolder;
+    font-size: 130px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: topin 3s reverse;
+    animation-timeline: view(block 80% 0);
+}
+
+
+
+.ecol{
+    position: absolute;
+    text-transform: uppercase;
+    background: #3E5151;
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+    background-clip: text;
+    color: transparent;
+    right: 10px;
+    top: 150px;
+    font-weight: bolder;
+    font-size: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: topin 3s reverse;
+    animation-timeline: view(block 80% 0);
+}
+
+.zec{
+    position: absolute;
+    text-transform: uppercase;
+    background: #3E5151;
+    background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+    background-clip: text;
+    color: transparent;
+    left: 10px;
+    top: 150px;
+    font-weight: bolder;
+    font-size: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: topin 3s reverse;
+    animation-timeline: view(block 80% 0);
+}
+.dec{
+    position: absolute;
+    text-transform: uppercase;
+    background: #3E5151;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-clip: text;
+    color: transparent;
+    right: 10px;
+    top: 150px;
+    font-weight: bolder;
+    font-size: 125px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation-name: topin;
+    animation-duration: 3s;
+    animation-delay: 900ms;
+    animation-direction: reverse;
+    transition: 900ms ease-in;
+    animation-range: 150vh;
+    animation-timeline: scroll();
+}
+
+.Apex img {
+    position: relative;
+}
+
+.chee {
+    position: absolute;
+    left: 30px;
+    width: 550px;
+    top: 330px;
+    word-spacing: 1px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    animation: rightin 3s reverse;
+    animation-timeline: view(block 90% 0);
+}
+
+
+.elt{
+    position: absolute;
+    right: 20px;
+    width: 550px;
+    top: 330px;
+    word-spacing: 1px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    animation: leftin 3s reverse;
+    animation-timeline: view(block 90% 0);
+}
+
+
+.zea{
+    position: absolute;
+    left: 20px;
+    width: 500px;
+    top: 330px;
+    word-spacing: 1px;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    animation: rightin 3s reverse;
+    animation-timeline: view(block 90% 0);
+}
+
+
+.pr{
+    background-color: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    box-shadow: 20px;
+    position: absolute;
+    right: 20px;
+    width: 550px;
+    top: 300px;
+    word-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(226, 226, 226);
+    animation-name: leftin;
+    animation-duration: 3s;
+    animation-delay: 900ms;
+    animation-direction: reverse;
+    transition: 900ms ease-in;
+    animation-range: 150vh;
+    animation-timeline: scroll();
+}
+
+.blur {
+    background-color: transparent !important;
+    border-radius: 20px !important;
+    backdrop-filter: blur(10px) !important;
+    padding: 10px !important;
+    box-shadow: 20px !important;
+}
+
+@keyframes leftin {
+    0%{
+     transform:translateX(0);
+     opacity: 1;
+     
+    }
+    100%{
+     transform: translateX(-500px);
+     opacity: 0;
+    }
+}
+
+
+@keyframes rightin {
+    0%{
+     transform:translateX(0);
+     opacity: 1;
+     
+    }
+    100%{
+     transform: translateX(500px);
+     opacity: 0;
+    }
+}
+
+@keyframes topin {
+    0%{
+     transform:translateY(0);
+     opacity: 1;
+     
+    }
+    100%{
+     transform: translateY(-500px);
+     opacity: 0;
+    }
+}
+
+.arrow {
+    position: absolute;
+    z-index: 1200;
+    border: 2px solid antiquewhite;
+    width: 60px;
+    border-radius: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: .5s;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.arrow span {
+    display: none;
+}
+
+.arrow:hover {
+    width: 170px;
+    border-radius: 5%;
+    justify-content: space-around;
+}
+
+.arrow:hover span {
+    display: inline;
+    font-size: 24px;
+}
